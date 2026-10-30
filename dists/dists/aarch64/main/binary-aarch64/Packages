@@ -1,0 +1,27 @@
+Package: hello-nux
+Version: 1.0.0
+Architecture: aarch64
+Maintainer: NuxDroid <nuxdroid@example.com>
+Description: A tiny hello-world package for NuxDroid
+Installed-Size: 11
+Filename: dists/aarch64/main/binary-aarch64/hello-nux_1.0.0_aarch64.deb
+Size: 856
+MD5Sum: 9879a6e7e733866c75f585913632b089
+SHA1: 3479a4eb452ef8a2a048df9cd462f2c9633e8644
+SHA256: 1e5f451c3fc97acef98f061087ec244f804a10c655fada2d47030756856cbd24
+SHA512: c57bdccf2242651f75650d26cd51d87b9f41ff5be4f108ebaa666b583a24ad22766cf6e4843868c1c9756272962290eb04bdeb037dba037185237c3881304b01
+
+Package: nuxdroid-bootstrap
+Version: 1.0.0
+Architecture: aarch64
+Depends: apt, bash, coreutils, dash, diffutils, findutils, gawk, grep, gzip, less, procps, psmisc, sed, tar, termux-core, termux-exec, termux-keyring, termux-licenses, termux-tools, util-linux, libandroid-support, libc++, libcurl, libbz2, openssl, ncurses, readline, xz-utils, zlib, curl, ca-certificates, dpkg
+Maintainer: NuxDroid <nuxdroid@example.com>
+Description: NuxDroid base bootstrap meta-package
+Installed-Size: 7
+Filename: dists/aarch64/main/binary-aarch64/nuxdroid-bootstrap_1.0.0_aarch64.deb
+Size: 1332
+MD5Sum: 4beb36563d075cf9e957bf04c12f855b
+SHA1: 41777d72424ba297e5f1137c8310238f10c038a8
+SHA256: 39085d291f949d3a87fc942220545737d3bf4111cbd938343a8068d2a5bad53e
+SHA512: 59393e3d42c9cd0e2733c115c96d504a066e836fb4e50b6314c86752d4982ab99fa69300636d4e4dec2ec033269d90c2b2ad5b230ab965f7de9df5ae79e1d3a3
+
