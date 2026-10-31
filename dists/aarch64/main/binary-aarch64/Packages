@@ -3,13 +3,14 @@ Version: 1.0.0
 Architecture: aarch64
 Maintainer: NuxDroid <nuxdroid@example.com>
 Description: A tiny hello-world package for NuxDroid
+ A one-liner that prints a greeting from inside the NuxDroid prefix.
 Installed-Size: 11
-Filename: dists/aarch64/main/binary-aarch64/hello-nux_1.0.0_aarch64.deb
-Size: 856
-MD5Sum: 9879a6e7e733866c75f585913632b089
-SHA1: 3479a4eb452ef8a2a048df9cd462f2c9633e8644
-SHA256: 1e5f451c3fc97acef98f061087ec244f804a10c655fada2d47030756856cbd24
-SHA512: c57bdccf2242651f75650d26cd51d87b9f41ff5be4f108ebaa666b583a24ad22766cf6e4843868c1c9756272962290eb04bdeb037dba037185237c3881304b01
+Filename: pool/main/hello-nux_1.0.0_aarch64.deb
+Size: 900
+MD5Sum: ca3c43974d6b8ab1e9fb5b3c1f64d920
+SHA1: 2c8e3ed732badc9059d3aa8920cf9da7eda0059e
+SHA256: 4bac1579873af9293da07d1dbd497ac3bd58b255b0264dce8b517182f597f112
+SHA512: 37e478f6fee5463525b30fc272e5076cb3171a92b420717f2fd9c0c294dde6920e80130a8cc20e7319bf6c020787028ba5d7bfe55fe711622b35a7ce0d66e83c
 
 Package: nuxdroid-bootstrap
 Version: 1.0.0
@@ -17,11 +18,12 @@ Architecture: aarch64
 Depends: apt, bash, coreutils, dash, diffutils, findutils, gawk, grep, gzip, less, procps, psmisc, sed, tar, termux-core, termux-exec, termux-keyring, termux-licenses, termux-tools, util-linux, libandroid-support, libc++, libcurl, libbz2, openssl, ncurses, readline, xz-utils, zlib, curl, ca-certificates, dpkg
 Maintainer: NuxDroid <nuxdroid@example.com>
 Description: NuxDroid base bootstrap meta-package
-Installed-Size: 7
-Filename: dists/aarch64/main/binary-aarch64/nuxdroid-bootstrap_1.0.0_aarch64.deb
-Size: 1340
-MD5Sum: dc9405e5d3eb6e6cb688a411e3af1659
-SHA1: 67a3fa3ccd671192034b60d64c5d6468103a2626
-SHA256: fc81e97a1602b62243761c0922e8699c9fa56858aef13a2c014cbd3895e06b27
-SHA512: b26d7172d6105109b8027e80f7d46e5c13dfdd72d50eae639b846f475b2484405317339c01ae0e28342ffd7647883038c38f712a5d5aa12d4ce02b048667a3e7
+ Registers the base system dependency closure in dpkg.
+Installed-Size: 35
+Filename: pool/main/nuxdroid-bootstrap_1.0.0_aarch64.deb
+Size: 1408
+MD5Sum: d13b731b85e9740f61f187b40952340f
+SHA1: 8d74af6364043a46687020abfa8c4d9d0c49520b
+SHA256: a72cd486ac742f67cf5e3e00bef6d9115655cdbcfc56681088af85717c8ef0d4
+SHA512: 2b73ec90ad47e6dc624e8d5b94e41ff1c62c9202060df59cbe472db24bc1e33be3d7ac24322aabd5f62b79a9ecfed0326c5fa0e739b5d32e089e601ea37a595d
 

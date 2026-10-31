@@ -1,0 +1,7 @@
+Package: nuxdroid-bootstrap
+Version: 1.0.0
+Architecture: aarch64
+Depends: apt, bash, coreutils, dash, diffutils, findutils, gawk, grep, gzip, less, procps, psmisc, sed, tar, termux-core, termux-exec, termux-keyring, termux-licenses, termux-tools, util-linux, libandroid-support, libc++, libcurl, libbz2, openssl, ncurses, readline, xz-utils, zlib, curl, ca-certificates, dpkg
+Maintainer: NuxDroid <nuxdroid@example.com>
+Description: NuxDroid base bootstrap meta-package
+ Registers the base system dependency closure in dpkg.
