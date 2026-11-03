@@ -1,0 +1,6 @@
+Package: mobox
+Version: 1.0.0
+Architecture: aarch64
+Maintainer: NuxDroid <nuxdroid@example.com>
+Description: Mobox installer for NuxDroid (Windows x86 apps via Box64/Wine)
+ Runs the Mobox installer. Components are downloaded at runtime.

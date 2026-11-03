@@ -12,6 +12,19 @@ SHA1: 2c8e3ed732badc9059d3aa8920cf9da7eda0059e
 SHA256: 4bac1579873af9293da07d1dbd497ac3bd58b255b0264dce8b517182f597f112
 SHA512: 37e478f6fee5463525b30fc272e5076cb3171a92b420717f2fd9c0c294dde6920e80130a8cc20e7319bf6c020787028ba5d7bfe55fe711622b35a7ce0d66e83c
 
+Package: mobox
+Version: 1.0.0
+Architecture: aarch64
+Maintainer: NuxDroid <nuxdroid@example.com>
+Description: Mobox installer for NuxDroid (Windows x86 apps via Box64/Wine)
+ Runs the Mobox installer. Components are downloaded at runtime.
+Filename: pool/main/mobox_1.0.0_aarch64.deb
+Size: 1764
+MD5Sum: 44c8fc0bfe7043cede8aa475ad64c7b0
+SHA1: ec7158cc6eae8fb0b731268a462b523005c79827
+SHA256: 7d30b162e9fef5fd66a8caa782fe9f4a8a32bdf552b60ab38d5c0494a671544d
+SHA512: 030329ac162472c3c5837657c97ef21a8d4848ce3356563a7712a75f0336f44874541905498b0073328f7ef9d1f3faa940960e116243c75053da4b66589b4621
+
 Package: nuxdroid-bootstrap
 Version: 1.0.0
 Architecture: aarch64
