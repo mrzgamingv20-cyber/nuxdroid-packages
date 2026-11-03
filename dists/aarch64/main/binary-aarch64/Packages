@@ -20,10 +20,10 @@ Description: Mobox installer for NuxDroid (Windows x86 apps via Box64/Wine)
  Runs the Mobox installer. Components are downloaded at runtime.
 Filename: pool/main/mobox_1.0.0_aarch64.deb
 Size: 1764
-MD5Sum: 44c8fc0bfe7043cede8aa475ad64c7b0
-SHA1: ec7158cc6eae8fb0b731268a462b523005c79827
-SHA256: 7d30b162e9fef5fd66a8caa782fe9f4a8a32bdf552b60ab38d5c0494a671544d
-SHA512: 030329ac162472c3c5837657c97ef21a8d4848ce3356563a7712a75f0336f44874541905498b0073328f7ef9d1f3faa940960e116243c75053da4b66589b4621
+MD5Sum: 80e50c1d321d2351c9be9a58b57865e8
+SHA1: 9e5251076fe146cd507f063a13d3113abbdadfe7
+SHA256: 16cfccdbc64a0cb67ef908355ff042f09cfa73e0ce5c6804c2d835ef5493c945
+SHA512: c0a3d0b8467e16772951a3f316b5424e20ee731b324502b0c7f63e6337b57a97160c5e2757121395af01c2891c4e7155567e4e921d9684f6b0eba0c81c8c2dbb
 
 Package: nuxdroid-bootstrap
 Version: 1.0.0
