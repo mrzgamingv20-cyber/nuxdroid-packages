@@ -1,0 +1,14 @@
+prefix=/data/data/com.nuxdroid/files/usr
+exec_prefix=${prefix}
+libdir=/data/data/com.nuxdroid/files/usr/lib
+includedir=/data/data/com.nuxdroid/files/usr/include
+
+xcflags=
+xlibs= -lSM -lICE  -lX11
+
+Name: Obt
+Description: Openbox Toolkit Library
+Version: 3.6
+Requires: glib-2.0 libxml-2.0
+Libs: -L${libdir} -lobt ${xlibs}
+Cflags: -I${includedir}/openbox/3.6 ${xcflags}

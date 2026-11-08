@@ -1,3 +1,35 @@
+Package: aterm
+Version: 1.2.0
+Architecture: aarch64
+Section: x11
+Priority: optional
+Maintainer: NuxDroid <nuxdroid@local>
+Depends: nuxdroid-desktop-libs
+Description: Terminal emulator for the NuxDroid desktop session.
+Installed-Size: 150
+Filename: pool/main/aterm_1.2.0_aarch64.deb
+Size: 48884
+MD5Sum: f7ab79f509b1fd11bb106c01771e587d
+SHA1: 69ac2af30702aacf76e13d259304afacb4e6ba2c
+SHA256: 055c4d9bcbbf8b17ec4b3b67d79ebc65a62fa8d62c15fefacee526880647fca5
+SHA512: 96ae4e298626ba2bdf4a9479dc307e702d852a6054a0185f3bbd5469c8aa7d078a9016d592ea9a39387491b0ade10bbdfc00e30943539e303987d07d07418a8e
+
+Package: feh
+Version: 3.13.1
+Architecture: aarch64
+Section: x11
+Priority: optional
+Maintainer: NuxDroid <nuxdroid@local>
+Depends: nuxdroid-desktop-libs
+Description: Image viewer and wallpaper setter for the NuxDroid desktop.
+Installed-Size: 210
+Filename: pool/main/feh_3.13.1_aarch64.deb
+Size: 69244
+MD5Sum: d5a413b5769e1888744ca59305c73a63
+SHA1: d24e2663c6b7b0feaff52647f78bc3e3d53b9603
+SHA256: 0ee06d2db731766d0bf2d6ec35b5e5df037abd42eb6b98d174beddbcfd206792
+SHA512: 4067dae460f13982d47fff039402d104b50829ec718bb32f27639f8d84fc2620a85a096b86c9a7533fdb0b2906e783331f35102ab1da7fe36aef914b32aa0c10
+
 Package: hello-nux
 Version: 1.0.0
 Architecture: aarch64
@@ -7,23 +39,26 @@ Description: A tiny hello-world package for NuxDroid
 Installed-Size: 11
 Filename: pool/main/hello-nux_1.0.0_aarch64.deb
 Size: 900
-MD5Sum: ca3c43974d6b8ab1e9fb5b3c1f64d920
-SHA1: 2c8e3ed732badc9059d3aa8920cf9da7eda0059e
-SHA256: 4bac1579873af9293da07d1dbd497ac3bd58b255b0264dce8b517182f597f112
-SHA512: 37e478f6fee5463525b30fc272e5076cb3171a92b420717f2fd9c0c294dde6920e80130a8cc20e7319bf6c020787028ba5d7bfe55fe711622b35a7ce0d66e83c
+MD5Sum: 7bc9b317844925415d56c06b245237ca
+SHA1: 7e7515c29367507c5f08e7a1298cf5eb51f8f6b0
+SHA256: 7d03434c2ad8013126069af5f5f8496e3155728d6323bb62a1dd78ddbc68c1d3
+SHA512: 8bfaa20fe269100307ea0f7758f5253bb728f58c3d0c2cd7ab0cdf576c0fd45f959af4775337ee8ede0ada953069c642ca745a885265be9f6bf3bf17f5279897
 
-Package: mobox
-Version: 1.0.0
+Package: lxappearance
+Version: 0.6.4
 Architecture: aarch64
-Maintainer: NuxDroid <nuxdroid@example.com>
-Description: Mobox installer for NuxDroid (Windows x86 apps via Box64/Wine)
- Runs the Mobox installer. Components are downloaded at runtime.
-Filename: pool/main/mobox_1.0.0_aarch64.deb
-Size: 1764
-MD5Sum: 80e50c1d321d2351c9be9a58b57865e8
-SHA1: 9e5251076fe146cd507f063a13d3113abbdadfe7
-SHA256: 16cfccdbc64a0cb67ef908355ff042f09cfa73e0ce5c6804c2d835ef5493c945
-SHA512: c0a3d0b8467e16772951a3f316b5424e20ee731b324502b0c7f63e6337b57a97160c5e2757121395af01c2891c4e7155567e4e921d9684f6b0eba0c81c8c2dbb
+Section: x11
+Priority: optional
+Maintainer: NuxDroid <nuxdroid@local>
+Depends: nuxdroid-desktop-libs
+Description: GTK theme, icon and font settings for the NuxDroid desktop.
+Installed-Size: 157
+Filename: pool/main/lxappearance_0.6.4_aarch64.deb
+Size: 23680
+MD5Sum: 312a563b6185d2e2f45c260235f6bfe2
+SHA1: fc96af5d4eb6e2fb7c446b44a5582c49da8803db
+SHA256: 1a036f4a8c654332dab1ba241f07665b21d833a1fd6a750bdc79f07793c32c79
+SHA512: 188eb0fdb1dd9f02a8c986e131026a620e0090ea6b59f6b0148bcf79a98e28d91bf0d6d74b7ab49569cdef1840c5271811be627d1cdd8f923c9f1d3e86780b41
 
 Package: nuxdroid-bootstrap
 Version: 1.0.0
@@ -34,9 +69,78 @@ Description: NuxDroid base bootstrap meta-package
  Registers the base system dependency closure in dpkg.
 Installed-Size: 35
 Filename: pool/main/nuxdroid-bootstrap_1.0.0_aarch64.deb
-Size: 1408
-MD5Sum: d13b731b85e9740f61f187b40952340f
-SHA1: 8d74af6364043a46687020abfa8c4d9d0c49520b
-SHA256: a72cd486ac742f67cf5e3e00bef6d9115655cdbcfc56681088af85717c8ef0d4
-SHA512: 2b73ec90ad47e6dc624e8d5b94e41ff1c62c9202060df59cbe472db24bc1e33be3d7ac24322aabd5f62b79a9ecfed0326c5fa0e739b5d32e089e601ea37a595d
+Size: 1420
+MD5Sum: 66b28e104f2dcb9ac0f8f2b9e00a969d
+SHA1: 5e11922b95325d63597772e1e1676d7036d0a8ef
+SHA256: 20b504ecb321d82b5aeb9e44168fb3b506af1614f6045c54092c5c81c98dda1b
+SHA512: e6b5288d1309cb81c5129870730fed5d16f9cc4bea4124da4a0c6c45d03421b4bf90dbd7bc225e79b50028ca0e0d62a82553b7b8b4b658827044cb034cf6e227
+
+Package: nuxdroid-desktop-libs
+Version: 1.0.0
+Architecture: aarch64
+Section: x11
+Priority: optional
+Maintainer: NuxDroid <nuxdroid@local>
+Depends: coreutils
+Description: Shared X11, cairo, pango and glib libraries for the NuxDroid
+ desktop. Bundled copies referenced through LD_LIBRARY_PATH set by the
+ nuxdroid-session startup script.
+Installed-Size: 104746
+Filename: pool/main/nuxdroid-desktop-libs_1.0.0_aarch64.deb
+Size: 16375436
+MD5Sum: 6c80bc5cdcc302e6e59ef44289136b4b
+SHA1: 966b085da3c1289ac565b2324267a8fb9158e43f
+SHA256: 6cad33de4c3628a4be8ff8d551efc2a379d1f506caface14c0a58141c8994936
+SHA512: 462725144ce8e597f66344482c56dd68b85ebd933d95a0fb81528245cfe8bbe7672dfd82fe6510ccae922026dafda027407af2a7b11919692d9ff7a3169730f6
+
+Package: openbox
+Version: 3.6.1
+Architecture: aarch64
+Section: x11
+Priority: optional
+Maintainer: NuxDroid <nuxdroid@local>
+Depends: nuxdroid-desktop-libs, coreutils
+Description: Stacking window manager for the NuxDroid desktop.
+ Packaged with a touch-friendly default configuration: root menu with
+ application launcher, workspace switching keybinds and the nuxdroid-session
+ startup script used by the embedded X server.
+Installed-Size: 1095
+Filename: pool/main/openbox_3.6.1_aarch64.deb
+Size: 211548
+MD5Sum: 7cf6e68003391829ecf2bfd60df2353c
+SHA1: 5505b6c2b6bd11d9b75c93eab8fed67307fc1eca
+SHA256: 9c0925488f9cf699a75d067f59777c04bf7fd257afed497511bcda655d99782a
+SHA512: 2f8becaf560aba1aa928a3344a3fad9e6f3a93a7608e530d01073258a83a04b89bf66fba16b4ca27ae175f6bc1ea1faf70f8fa49f424addea987cc8b3bd4a811
+
+Package: pcmanfm
+Version: 1.4.0
+Architecture: aarch64
+Section: x11
+Priority: optional
+Maintainer: NuxDroid <nuxdroid@local>
+Depends: nuxdroid-desktop-libs
+Description: File manager for the NuxDroid desktop.
+Installed-Size: 415
+Filename: pool/main/pcmanfm_1.4.0_aarch64.deb
+Size: 77708
+MD5Sum: 6777b36d5952e3ea09bca4a757a1acc5
+SHA1: 1da5dc77e080ab6afb7812a55f5c70edd49db7d3
+SHA256: f29b6aca674159ed9c710bda873afb914ac1999681a87d4ce84859f06e0f49f2
+SHA512: be5f0629a48ef3c70a3886594e72defe1e773f53f28d2db516b2e51183232e3caef96a1fe04a25cdc2ea2201bb20f2f34321995cb85cd8dd0c4a4a34dcbf76ab
+
+Package: tint2
+Version: 17.1.3
+Architecture: aarch64
+Section: x11
+Priority: optional
+Maintainer: NuxDroid <nuxdroid@local>
+Depends: nuxdroid-desktop-libs
+Description: Panel for the NuxDroid desktop: application launchers, window buttons, system tray and clock.
+Installed-Size: 725
+Filename: pool/main/tint2_17.1.3_aarch64.deb
+Size: 185876
+MD5Sum: 4514773e48ba497e6d295460cc5b8609
+SHA1: 71c1f400acb8496b6152187d9fd02a9fd3cd68bb
+SHA256: 9324e7fbf7f4f6cd9028f4a7b39ea410d68fbd12bf4c074bf4f82136d662a531
+SHA512: 593eb774683dbd0e89222e8472ea107d955c7c64a6819797cb06cfd55ecbc2f03ca68d0936aac473ca4a06e01220de8075e1052e10bcd518f147f0742361220c
 

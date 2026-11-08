@@ -1,0 +1,3 @@
+# NuxDroid desktop autostart - runs from openbox-session.
+/data/data/com.nuxdroid/files/usr/bin/tint2 &
+/data/data/com.nuxdroid/files/usr/bin/feh --bg-fill "$HOME/.config/openbox/wallpaper.png" >/dev/null 2>&1 &

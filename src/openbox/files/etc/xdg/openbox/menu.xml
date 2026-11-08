@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<openbox_menu xmlns="http://openbox.org/3.4/rc">
+  <menu id="root-menu" label="NuxDroid">
+    <item label="Terminal"><action name="Execute"><command>/data/data/com.nuxdroid/files/usr/bin/aterm</command></action></item>
+    <item label="File Manager"><action name="Execute"><command>/data/data/com.nuxdroid/files/usr/bin/pcmanfm</command></action></item>
+    <item label="Appearance"><action name="Execute"><command>/data/data/com.nuxdroid/files/usr/bin/lxappearance</command></action></item>
+    <separator/>
+    <menu id="applications-menu" label="Applications"/>
+    <separator/>
+    <item label="Reload Configuration"><action name="Reconfigure"/></item>
+    <item label="Exit Desktop"><action name="Exit"/></item>
+  </menu>
+  <menu id="applications-menu" label="Applications"/>
+</openbox_menu>

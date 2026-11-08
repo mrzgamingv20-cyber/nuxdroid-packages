@@ -1,0 +1,8 @@
+Package: pcmanfm
+Version: 1.4.0
+Architecture: aarch64
+Section: x11
+Priority: optional
+Maintainer: NuxDroid <nuxdroid@local>
+Depends: nuxdroid-desktop-libs
+Description: File manager for the NuxDroid desktop.

@@ -1,0 +1,2 @@
+#!/data/data/com.nuxdroid/files/usr/bin/sh
+exec /data/data/com.nuxdroid/files/usr/bin/aterm +tr "${@}"

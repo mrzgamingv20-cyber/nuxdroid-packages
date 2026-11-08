@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<openbox_config xmlns="http://openbox.org/3.4/rc">
+  <theme>
+    <name>Clearlooks</name>
+    <titleLayout>NLIMC</titleLayout>
+    <font place="Active"><size>10</size><name>sans</name></font>
+    <font place="Inactive"><size>10</size><name>sans</name></font>
+    <font place="MenuHeader"><size>10</size><name>sans</name></font>
+    <font place="MenuItem"><size>10</size><name>sans</name></font>
+    <font place="OnScreenDisplay"><size>10</size><name>sans</name></font>
+  </theme>
+  <focus><followMouse>no</followMouse><raiseOnFocus>yes</raiseOnFocus></focus>
+  <placement><policy>Smart</policy></placement>
+  <desktops>
+    <number>2</number>
+    <firstDesk>1</firstDesk>
+    <names><name>Workspace 1</name><name>Workspace 2</name></names>
+  </desktops>
+  <keyboard>
+    <keybind key="A-F4"><action name="Close"/></keybind>
+    <keybind key="A-F5"><action name="Maximize"/></keybind>
+    <keybind key="A-Tab"><action name="NextWindow"/></keybind>
+    <keybind key="A-S-Tab"><action name="PrevWindow"/></keybind>
+    <keybind key="W-Return"><action name="Execute"><command>/data/data/com.nuxdroid/files/usr/bin/aterm</command></action></keybind>
+    <keybind key="W-e"><action name="Execute"><command>/data/data/com.nuxdroid/files/usr/bin/pcmanfm</command></action></keybind>
+    <keybind key="W-d"><action name="ShowDesktop"/></keybind>
+    <keybind key="W-Up"><action name="Maximize"/></keybind>
+    <keybind key="W-Down"><action name="Unmaximize"/></keybind>
+    <keybind key="W-Left"><action name="UnmaximizeFull"/><action name="MoveResizeTo"><x>0</x><y>0</y><width>50%</width><height>100%</height></action></keybind>
+    <keybind key="W-Right"><action name="UnmaximizeFull"/><action name="MoveResizeTo"><x>50%</x><y>0</y><width>50%</width><height>100%</height></action></keybind>
+    <keybind key="C-A-Left"><action name="GoToDesktop"><to>prev</to></action></keybind>
+    <keybind key="C-A-Right"><action name="GoToDesktop"><to>next</to></action></keybind>
+    <keybind key="W-1"><action name="GoToDesktop"><to>1</to></action></keybind>
+    <keybind key="W-2"><action name="GoToDesktop"><to>2</to></action></keybind>
+    <keybind key="W-l"><action name="Reconfigure"/></keybind>
+  </keyboard>
+  <mouse>
+    <context name="Root">
+      <mousebind button="Right" action="Press"><action name="ShowMenu"><menu>root-menu</menu></action></mousebind>
+    </context>
+    <context name="Titlebar">
+      <mousebind button="Left" action="Drag"><action name="Move"/></mousebind>
+      <mousebind button="Left" action="Click"><action name="Raise"/><action name="Focus"/></mousebind>
+      <mousebind button="Left" action="DoubleClick"><action name="ToggleMaximize"/></mousebind>
+      <mousebind button="Middle" action="Press"><action name="ShowMenu"><menu>client-menu</menu></action></mousebind>
+    </context>
+    <context name="Client">
+      <mousebind button="Left" action="Press"><action name="Focus"/><action name="Raise"/></mousebind>
+      <mousebind button="Left" action="Click"><action name="Focus"/></mousebind>
+    </context>
+    <context name="Handle">
+      <mousebind button="Left" action="Drag"><action name="Resize"/></mousebind>
+    </context>
+    <context name="Icon">
+      <mousebind button="Left" action="Press"><action name="ShowMenu"><menu>client-menu</menu></action></mousebind>
+    </context>
+    <context name="Close">
+      <mousebind button="Left" action="Click"><action name="Close"/></mousebind>
+    </context>
+    <context name="Maximize">
+      <mousebind button="Left" action="Click"><action name="ToggleMaximize"/></mousebind>
+    </context>
+    <context name="Iconify">
+      <mousebind button="Left" action="Click"><action name="Iconify"/></mousebind>
+    </context>
+    <context name="Frame">
+      <mousebind button="Left" action="Press"><action name="Focus"/><action name="Raise"/></mousebind>
+      <mousebind button="Left" action="Click"><action name="Focus"/></mousebind>
+    </context>
+    <context name="Desktop">
+      <mousebind button="Right" action="Press"><action name="ShowMenu"><menu>root-menu</menu></action></mousebind>
+    </context>
+  </mouse>
+</openbox_config>

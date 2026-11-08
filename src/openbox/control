@@ -1,0 +1,11 @@
+Package: openbox
+Version: 3.6.1
+Architecture: aarch64
+Section: x11
+Priority: optional
+Maintainer: NuxDroid <nuxdroid@local>
+Depends: nuxdroid-desktop-libs, coreutils
+Description: Stacking window manager for the NuxDroid desktop.
+ Packaged with a touch-friendly default configuration: root menu with
+ application launcher, workspace switching keybinds and the nuxdroid-session
+ startup script used by the embedded X server.

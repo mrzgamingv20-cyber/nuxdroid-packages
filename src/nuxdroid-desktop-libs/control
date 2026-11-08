@@ -1,0 +1,10 @@
+Package: nuxdroid-desktop-libs
+Version: 1.0.0
+Architecture: aarch64
+Section: x11
+Priority: optional
+Maintainer: NuxDroid <nuxdroid@local>
+Depends: coreutils
+Description: Shared X11, cairo, pango and glib libraries for the NuxDroid
+ desktop. Bundled copies referenced through LD_LIBRARY_PATH set by the
+ nuxdroid-session startup script.

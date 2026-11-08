@@ -1,0 +1,7 @@
+[Desktop Entry]
+Name=Openbox
+Comment=Log in using the Openbox window manager (without a session manager)
+Exec=/data/data/com.nuxdroid/files/usr/bin/openbox-session
+TryExec=/data/data/com.nuxdroid/files/usr/bin/openbox-session
+Icon=openbox
+Type=Application

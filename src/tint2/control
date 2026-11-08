@@ -1,0 +1,8 @@
+Package: tint2
+Version: 17.1.3
+Architecture: aarch64
+Section: x11
+Priority: optional
+Maintainer: NuxDroid <nuxdroid@local>
+Depends: nuxdroid-desktop-libs
+Description: Panel for the NuxDroid desktop: application launchers, window buttons, system tray and clock.

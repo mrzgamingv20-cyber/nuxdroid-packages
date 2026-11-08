@@ -1,0 +1,8 @@
+Package: lxappearance
+Version: 0.6.4
+Architecture: aarch64
+Section: x11
+Priority: optional
+Maintainer: NuxDroid <nuxdroid@local>
+Depends: nuxdroid-desktop-libs
+Description: GTK theme, icon and font settings for the NuxDroid desktop.

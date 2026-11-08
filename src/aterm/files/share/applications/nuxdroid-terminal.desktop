@@ -1,0 +1,8 @@
+[Desktop Entry]
+Type=Application
+Name=Terminal
+Comment=Open the NuxDroid terminal emulator
+Exec=/data/data/com.nuxdroid/files/usr/bin/aterm
+Icon=utilities-terminal
+Categories=System;TerminalEmulator;
+StartupNotify=true

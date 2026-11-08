@@ -1,0 +1,23 @@
+#!/data/data/com.nuxdroid/files/usr/bin/sh
+# NuxDroid desktop session entry point. Started by the embedded X server
+# through TERMUX_X11_XSTARTUP; sets the prefix environment the window
+# manager and every desktop process need, then execs openbox-session.
+PREFIX="/data/data/com.nuxdroid/files/usr"
+HOME_DIR="/data/data/com.nuxdroid/files/home"
+export PREFIX HOME="$HOME_DIR"
+export TMPDIR="$PREFIX/tmp"
+export PATH="$PREFIX/bin:/system/bin"
+export LD_LIBRARY_PATH="$PREFIX/lib"
+export FONTCONFIG_PATH="$PREFIX/etc/fonts"
+export GSETTINGS_SCHEMA_DIR="$PREFIX/share/glib-2.0/schemas"
+export DISPLAY=":0"
+export XDG_RUNTIME_DIR="$TMPDIR/xdg-runtime"
+export XDG_CONFIG_HOME="$HOME_DIR/.config"
+export XDG_DATA_HOME="$HOME_DIR/.local/share"
+export XDG_DATA_DIRS="$PREFIX/share:/system/usr/share"
+export XDG_CURRENT_DESKTOP="Openbox"
+export XDG_SESSION_DESKTOP="openbox"
+mkdir -p "$XDG_RUNTIME_DIR" && chmod 700 "$XDG_RUNTIME_DIR"
+export GIO_MODULE_DIR="$PREFIX/lib/gio/modules"
+export GDK_PIXBUF_MODULE_FILE="$PREFIX/lib/gdk-pixbuf-2.0/2.10.0/loaders.cache"
+exec "$PREFIX/bin/openbox-session"

@@ -19,6 +19,17 @@ BASE="dists/$SUITE/$COMPONENT"
 BIN_DIR="$BASE/binary-$ARCH"
 LEGACY_BIN_DIR="$BASE/binary"
 
+# Mobox is excluded until its runtime paths are ported to com.nuxdroid.
+EXCLUDED_PACKAGES="${EXCLUDED_PACKAGES:-mobox}"
+
+is_excluded() {
+	local package="$1"
+	case " $EXCLUDED_PACKAGES " in
+		*" $package "*) return 0 ;;
+		*) return 1 ;;
+	esac
+}
+
 mkdir -p "$BIN_DIR" "$LEGACY_BIN_DIR"
 
 packages_tmp="$(mktemp)"
@@ -28,6 +39,8 @@ trap 'rm -f "$packages_tmp" "$contents_tmp"' EXIT
 {
 	for deb in "$POOL"/*.deb; do
 		[ -e "$deb" ] || continue
+		package="$(dpkg-deb -f "$deb" Package)"
+		is_excluded "$package" && continue
 		rel="$deb"
 		size="$(stat -c %s "$deb")"
 		md5="$(md5sum "$deb" | awk '{print $1}')"
@@ -50,7 +63,10 @@ trap 'rm -f "$packages_tmp" "$contents_tmp"' EXIT
 {
 	for deb in "$POOL"/*.deb; do
 		[ -e "$deb" ] || continue
+		package="$(dpkg-deb -f "$deb" Package)"
+		is_excluded "$package" && continue
 		pkg="$(dpkg-deb -f "$deb" Package)"
+		is_excluded "$pkg" && continue
 		dpkg-deb -c "$deb" | awk -v pkg="$pkg" '
 			$1 !~ /^d/ {
 				path = $NF

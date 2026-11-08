@@ -1,0 +1,8 @@
+Package: feh
+Version: 3.13.1
+Architecture: aarch64
+Section: x11
+Priority: optional
+Maintainer: NuxDroid <nuxdroid@local>
+Depends: nuxdroid-desktop-libs
+Description: Image viewer and wallpaper setter for the NuxDroid desktop.
